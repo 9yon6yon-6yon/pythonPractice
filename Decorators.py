@@ -1,13 +1,6 @@
 '''passing function to a function'''
 
 
-def calcFormula(x, y):
-    return x * y + x / 2 + 2
-
-
-def calcFormula2(x, y):
-    return x*x*x+y*y*y
-
 
 # def printOutputReport(func, x, y):
 #     z = func(x, y)
@@ -29,6 +22,12 @@ def printOutputReport(func):
         print('Value for y is : ', y)
         print('Calculated result for your formula is : ', z)
     return f
-calcFormula2 = printOutputReport(calcFormula2)
+@printOutputReport
+def calcFormula(x, y):
+    return x * y + x / 2 + 2
+
+@printOutputReport
+def calcFormula2(x, y):
+    return x*x*x+y*y*y
 
 calcFormula2( 3, 4)
