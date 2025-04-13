@@ -15,15 +15,15 @@
 # printOutputReport(calcFormula2, 5, 6)
 
 def printOutputReport(func):
-    def f(x,y):
-        z = func(x, y)
+    def f(*args, **kwargs):
+        z = func(*args, **kwargs)
         print('-----------This is a report for your formula-----------')
-        print('Value for x is : ', x)
-        print('Value for y is : ', y)
+        for i, ar in enumerate(args):
+            print('Your '+ str(i + 1) +' variable is : ', ar)
         print('Calculated result for your formula is : ', z)
     return f
 @printOutputReport
-def calcFormula(x, y):
+def calcFormula(x, y):# now we can just modify the function only not the wrapper function
     return x * y + x / 2 + 2
 
 @printOutputReport
