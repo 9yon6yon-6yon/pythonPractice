@@ -15,7 +15,7 @@ import shutil
 # newPath = os.path.join(base,img[0])
 # print(newPath)
 
-# '''sub-folders tree'''
+'''sub-folders tree'''
 # folders = ['scripts','libs','data']
 # subfolders = ['pre','post']
 

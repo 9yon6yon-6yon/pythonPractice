@@ -10,18 +10,18 @@
 # print(ages)
 # print(names[0],ages[0])
 
-# '''
-# adding elements to a list
-# '''
+'''
+adding elements to a list
+'''
 # shoppingCart = []
 # item = input('Enter the name of the product: ')
 
 # shoppingCart.append(item)
 # print(shoppingCart)
 
-# '''
-# remove, pop,clear elements from a list
-# '''
+'''
+remove, pop, clear - elements from a list
+'''
 
 # shoppingCart = ['orange', 'apple', 'egg']
 # shoppingCart.remove('egg')
@@ -31,7 +31,7 @@
 # shoppingCart.clear()
 # print(shoppingCart)
 
-# '''length of a list'''
+'''length of a list'''
 # shoppingCart = ['orange', 'apple', 'egg']
 # print(len(shoppingCart))
 
@@ -46,6 +46,6 @@
 # numbers = [[1, 2, 3], [4, 5, 6]]
 # print(numbers[1][2])
 
-db = [['John','Niel'],[22,43]]
-print(db[0][0])
-print(db[1][0])
+# db = [['John','Niel'],[22,43]]
+# print(db[0][0])
+# print(db[1][0])

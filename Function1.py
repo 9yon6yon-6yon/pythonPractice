@@ -1,4 +1,4 @@
-# '''normal function'''
+'''normal function'''
 
 # def addToDatabase(name):
 #     # print(name)
@@ -12,7 +12,7 @@
 # addToDatabase("Lorem Ipsum")
 
 
-# '''global variables'''
+'''global variables'''
 
 # globalVar = 'This is a global variable'
 # def Function1():

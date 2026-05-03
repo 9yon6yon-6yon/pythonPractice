@@ -1,4 +1,4 @@
-# '''car conditions'''
+'''car conditions'''
 # rotationSwitch = True
 # breakPadel = False
 
@@ -16,7 +16,7 @@
 # print("Taile light is : ", tailLight)
 
 
-# '''city adventurer'''
+'''city adventurer'''
 
 # skill = 15
 # if skill > 15:
@@ -25,7 +25,7 @@
 #     print("You can\'t enter to the city")
 
 
-# """if-elif-else statements"""
+"""if-elif-else statements"""
 # forwardButton = True
 # backwardButton = False
 
@@ -39,15 +39,15 @@
 #     motorStatus = 0
 #     print('Default state [Stopped]')
 
-# '''
-# Python executes code line-by-line
-# so the first condition
-# will run and stop if its 
-# true and won't go to other statement
-# '''
+'''
+Python executes code line-by-line
+so the first condition
+will run and stop if its 
+true and won't go to other statement
+'''
 
 
-# '''grade checking code'''
+'''grade checking code'''
 # grade = int(input("Enter your grade: "))
 
 # if grade > 90:
